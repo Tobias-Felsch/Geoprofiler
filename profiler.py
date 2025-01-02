@@ -3,8 +3,6 @@ import numpy as np
 
 print("Running Geoprofile")
 
-
-
 def find_black_line(image):
     # Convert the image to the HSV color space
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
